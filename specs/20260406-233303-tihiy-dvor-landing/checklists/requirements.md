@@ -8,7 +8,7 @@
 
 ## Completeness
 
-- [ ] Все [NEEDS CLARIFICATION] марkers разрешены (3 осталось)
+- [x] Все [NEEDS CLARIFICATION] маркеры разрешены
 - [x] User Scenarios — заполнены (4 user story)
 - [x] Requirements — заполнены (10 FR)
 - [x] Success Criteria — заполнены (5 SC)

@@ -1,0 +1,30 @@
+.cta {
+  position: relative;
+  min-height: 600px;
+  background: url('../images/cta-bg.jpg') center/cover no-repeat;
+}
+
+.cta__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(19, 19, 19, .3), rgba(19, 19, 19, .75));
+}
+
+.cta__inner {
+  position: relative;
+  z-index: 1;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.cta__inner h2 {
+  margin: 0;
+  text-align: center;
+  font-family: var(--font-serif);
+  font-size: 72px;
+  line-height: 1;
+}

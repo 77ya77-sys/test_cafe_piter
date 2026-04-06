@@ -1,0 +1,103 @@
+body {
+  background: var(--bg-primary);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container-wide {
+  width: min(var(--w-desktop), 100%);
+  margin-inline: auto;
+  padding-inline: 32px;
+}
+
+.container {
+  width: min(390px, 100%);
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: var(--gold);
+}
+
+.eyebrow--center {
+  text-align: center;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 32px;
+  border-radius: var(--radius-16);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: filter .2s ease;
+}
+
+.btn:hover {
+  filter: brightness(1.08);
+}
+
+.btn:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.btn--gold {
+  color: var(--gold-text);
+  background: var(--gold-dark);
+}
+
+.btn--green {
+  color: var(--green-text);
+  background: var(--green);
+}
+
+.btn--dark {
+  color: var(--text-main);
+  background: #2a2a2a;
+  border-radius: var(--radius-8);
+}
+
+.btn--soft {
+  color: var(--text-main);
+  background: #353535;
+  border-radius: var(--radius-16);
+}
+
+.btn--h56 {
+  height: 56px;
+}
+
+.btn--h64 {
+  height: 64px;
+}
+
+.btn--h68 {
+  height: 68px;
+}
+
+.btn--h76 {
+  height: 76px;
+}
+
+.btn--full {
+  width: 100%;
+}

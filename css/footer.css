@@ -1,0 +1,39 @@
+.footer {
+  background: var(--bg-dark);
+  padding: 96px 0 48px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 28px;
+}
+
+.footer__links a {
+  color: var(--text-link);
+  font-size: 14px;
+}
+
+.footer__links .footer__accent {
+  color: #f59e0b;
+}
+
+.footer__copy {
+  margin: 0;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.footer__icons {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer__icons a {
+  color: var(--text-link);
+  font-size: 14px;
+}

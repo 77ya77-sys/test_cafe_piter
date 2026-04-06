@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кофейня «Тихий Двор» — Санкт-Петербург</title>
+  <meta name="description" content="Кофе и еда в тихом дворе старого Петербурга. Завтраки, паста, десерты и атмосфера без суеты.">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <meta property="og:title" content="Кофейня «Тихий Двор»">
+  <meta property="og:description" content="Кофе и еда в тихом дворе старого Петербурга. Вход через арку, 2 минуты от Невского.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/why-us.css">
+  <link rel="stylesheet" href="css/location.css">
+  <link rel="stylesheet" href="css/cta.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="header__top container-wide">
+      <a href="#hero" class="header__logo">Тихий Двор</a>
+
+      <nav class="header__nav" id="nav" aria-label="Основная навигация">
+        <a href="#menu" class="header__nav-link header__nav-link--active">Меню</a>
+        <a href="#location" class="header__nav-link">Локация</a>
+      </nav>
+
+      <div class="header__icons" aria-label="Контакты">
+        <a href="tel:+78120000000" class="header__icon-link header__icon-link--phone" aria-label="Позвонить">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8c1.2 2.4 3.2 4.4 5.6 5.6l1.9-1.9c.2-.2.5-.3.8-.2 1 .3 2 .5 3.1.5.4 0 .8.4.8.8V19c0 .4-.4.8-.8.8C10.5 19.8 4.2 13.5 4.2 5.8c0-.4.4-.8.8-.8h3.4c.4 0 .8.4.8.8 0 1.1.2 2.1.5 3.1.1.3 0 .6-.2.8l-1.9 1.9Z"/></svg>
+        </a>
+        <div class="header__contact-text" aria-label="Телефон и время работы">
+          <a href="tel:+78120000000" class="header__phone">+7 (812) 000-00-00</a>
+          <span class="header__hours">Ежедневно 09:00–22:00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="header__subnav" aria-hidden="true">
+      <a href="#menu" class="header__subnav-link header__subnav-link--active">Меню</a>
+      <a href="#location" class="header__subnav-link">Локация</a>
+    </div>
+  </header>
+
+  <div class="messenger-fab" aria-label="Быстрые мессенджеры">
+    <a href="https://wa.me/79998887766" target="_blank" rel="noopener noreferrer" class="messenger-fab__link messenger-fab__link--wa" aria-label="WhatsApp">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M20.5 3.5A11 11 0 0 0 3.7 17.2L2 22l4.9-1.6A11 11 0 1 0 20.5 3.5Zm-8.6 16.2c-1.8 0-3.4-.5-4.8-1.3l-.3-.2-2.9 1 .9-2.8-.2-.3a8.2 8.2 0 1 1 7.3 3.6Zm4.5-6.2c-.2-.1-1.4-.7-1.6-.7-.2-.1-.4-.1-.5.2l-.7.8c-.1.2-.3.2-.5.1a6.8 6.8 0 0 1-3.3-2.9c-.1-.2 0-.3.1-.4l.3-.4.2-.4c.1-.2 0-.3 0-.4l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.4c-.2 0-.4 0-.6.3s-.8.8-.8 1.9.8 2.2.9 2.3c.1.2 1.6 2.5 3.9 3.5.6.3 1 .4 1.3.5.6.2 1.1.2 1.5.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1 0-.1-.2-.2-.5-.3Z"/></svg>
+    </a>
+    <a href="https://t.me/tihiydvor" target="_blank" rel="noopener noreferrer" class="messenger-fab__link messenger-fab__link--tg" aria-label="Telegram">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M21.3 4.7c-.3-.2-.8-.2-1.4 0L3.2 11c-.8.3-.7.7-.2.9L7 13.1l1.5 4.8c.2.7.1 1 .5 1 .3 0 .4-.1.6-.3l2-1.9 4.1 3c.8.4 1.3.2 1.5-.7l3-13.1c.1-.7-.2-1.1-.8-1.3Zm-3.2 3-7.7 7.1-.3 3.2-.9-3 8.9-8.1c.4-.3.1-.6-.3-.3Z"/></svg>
+    </a>
+  </div>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__gradient"></div>
+      <div class="hero__inner container-wide">
+        <h1 class="hero__title">Кофе и еда в тихом дворе старого Петербурга</h1>
+        <p class="hero__lead">Завтраки, паста и десерты — без суеты, в самом центре.</p>
+        <div class="hero__buttons">
+          <a href="#menu" class="btn btn--gold btn--h68">Посмотреть меню</a>
+          <a href="https://yandex.ru/maps/?text=Итальянская%2012%20Санкт-Петербург" target="_blank" rel="noopener noreferrer" class="btn btn--green btn--h68">Построить маршрут</a>
+        </div>
+        <p class="hero__meta">Вход через арку • 2 минуты от Невского</p>
+      </div>
+    </section>
+
+    <section class="mobile-actions" aria-label="Быстрые действия">
+      <div class="container">
+        <a href="https://yandex.ru/maps/?text=Итальянская%2012%20Санкт-Петербург" target="_blank" rel="noopener noreferrer" class="btn btn--gold btn--h64 btn--full">Построить маршрут</a>
+        <div class="mobile-actions__row">
+          <a href="https://wa.me/78120000000" target="_blank" rel="noopener noreferrer" class="btn btn--green btn--h56">Написать</a>
+          <a href="#" class="btn btn--dark btn--h56">Поделиться</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container-wide about__layout">
+        <div class="about__content">
+          <p class="eyebrow">Атмосфера</p>
+          <h2 class="about__title">Секретное место в сердце города</h2>
+          <p class="about__text">Наш двор — это островок тишины, скрытый от шума больших проспектов массивными сводами старинной арки. Здесь время течёт иначе.</p>
+          <p class="about__text">Летом открываем веранду, где под мягким светом ретро-гирлянд приятно встречать закаты с бокалом вина или чашкой свежесваренного кофе.</p>
+        </div>
+
+        <div class="about__images">
+          <img src="images/about-main.jpg" alt="Интерьер кофейни в тёплом свете" class="about__image about__image--large" loading="lazy">
+          <img src="images/about-coffee.jpg" alt="Чашка кофе в Тихом Дворе" class="about__image about__image--small" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="container-wide">
+        <div class="menu__head">
+          <div>
+            <p class="eyebrow">Кухня</p>
+            <h2 class="menu__title">Вкусы, которые вдохновляют</h2>
+          </div>
+          <a href="#" class="menu__more">Открыть полное меню <span>↗</span></a>
+        </div>
+
+        <div class="menu__grid">
+          <article class="menu-card">
+            <p class="menu-card__time">8:00 — 14:00</p>
+            <h3 class="menu-card__title">Завтраки</h3>
+            <p class="menu-card__text">Скрембл с авокадо, сырники и свежая выпечка.</p>
+          </article>
+          <article class="menu-card">
+            <p class="menu-card__time">Весь день</p>
+            <h3 class="menu-card__title">Основное</h3>
+            <p class="menu-card__text">Домашняя паста, свежие салаты и горячие блюда.</p>
+          </article>
+          <article class="menu-card menu-card--tall">
+            <p class="menu-card__time">Specialty</p>
+            <h3 class="menu-card__title">Кофе</h3>
+            <p class="menu-card__text">От классического эспрессо до авторских рафов.</p>
+          </article>
+          <article class="menu-card">
+            <p class="menu-card__time">Sweet</p>
+            <h3 class="menu-card__title">Десерты</h3>
+            <p class="menu-card__text">Тарты, муссы и те самые трубочки с кремом.</p>
+          </article>
+        </div>
+
+        <div class="menu-mobile">
+          <p class="eyebrow">Еда и кофе</p>
+          <h2 class="menu-mobile__title">Крафтовые вкусы</h2>
+          <article class="menu-mobile__item">
+            <img src="images/menu-beans.jpg" alt="Кофейные зёрна" loading="lazy">
+            <div>
+              <h3>Нордический обжиг</h3>
+              <p>Светлая обжарка, бархатный вкус и мягкое шоколадное послевкусие.</p>
+            </div>
+          </article>
+          <article class="menu-mobile__item">
+            <img src="images/menu-pastry.jpg" alt="Свежая выпечка" loading="lazy">
+            <div>
+              <h3>Миндальная слойка</h3>
+              <p>Хрустящая выпечка с миндальным кремом и тёплой карамельной ноткой.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-us" id="why-us">
+      <div class="container-wide">
+        <p class="eyebrow eyebrow--center">Почему мы</p>
+        <h2 class="why-us__title">Пространство для тех, кто ценит момент</h2>
+        <div class="why-us__grid">
+          <article class="why-us__item"><h3>Вкус</h3><p>Свежие продукты, ручная подача и стабильное качество каждый день.</p></article>
+          <article class="why-us__item"><h3>Локация</h3><p>Центр Петербурга рядом с Невским, но без туристической суеты.</p></article>
+          <article class="why-us__item"><h3>Атмосфера</h3><p>Тёплый свет, спокойная музыка и уют для неспешных встреч.</p></article>
+          <article class="why-us__item"><h3>Формат</h3><p>Подходит и для работы утром, и для ужина вечером в спокойной атмосфере.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="location" id="location">
+      <div class="container-wide location__layout">
+        <div class="location__map-wrap">
+          <img src="images/location-photo.jpg" alt="Район кофейни на карте города" class="location__map-image" loading="lazy">
+          <iframe
+            class="location__map-iframe"
+            title="Яндекс Карта — Санкт-Петербург"
+            src="https://yandex.ru/map-widget/v1/?ll=30.337920%2C59.934280&mode=search&oid=1025016579&ol=biz&sll=30.337920%2C59.934280&sspn=0.042915%2C0.016572&text=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%2C%20%D0%9C%D0%B0%D0%BB%D0%B0%D1%8F%20%D0%A1%D0%B0%D0%B4%D0%BE%D0%B2%D0%B0%D1%8F%201"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+
+        <div class="location__content">
+          <p class="eyebrow">Где нас найти</p>
+          <h2>Малая Садовая, 1</h2>
+          <p class="location__line">Вход через арку, следуйте за огнями</p>
+          <p class="location__line">Ежедневно 08:00 — 22:00</p>
+
+          <div class="location__links">
+            <a href="https://t.me/tihiydvor" target="_blank" rel="noopener noreferrer" class="btn btn--soft btn--h56">Telegram</a>
+            <a href="https://wa.me/78120000000" target="_blank" rel="noopener noreferrer" class="btn btn--soft btn--h56">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="cta">
+      <div class="cta__overlay"></div>
+      <div class="cta__inner container-wide">
+        <h2>Зайди на кофе сегодня</h2>
+        <a href="https://yandex.ru/maps/?text=Итальянская%2012%20Санкт-Петербург" target="_blank" rel="noopener noreferrer" class="btn btn--gold btn--h76">Забронировать столик</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__links">
+      <a href="#">Политика конфиденциальности</a>
+      <a href="#location">Контакты</a>
+      <a href="#cta" class="footer__accent">Бронирование</a>
+    </div>
+    <p class="footer__copy">© 2024 «Тихий Двор» Санкт-Петербург. Кинематографичная тишина.</p>
+    <div class="footer__icons">
+      <a href="https://wa.me/78120000000" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">◯</a>
+      <a href="https://t.me/tihiydvor" target="_blank" rel="noopener noreferrer" aria-label="Telegram">△</a>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

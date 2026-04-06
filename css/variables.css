@@ -1,0 +1,31 @@
+:root {
+  --bg-primary: #131313;
+  --bg-nav: rgba(23, 23, 23, 0.8);
+  --bg-dark: #0a0a0a;
+  --bg-deep: #1b1b1c;
+  --bg-soft: #202020;
+  --bg-card: #2a2a2a;
+
+  --text-main: #e5e2e1;
+  --text-soft: #d5c4b2;
+  --text-muted: #737373;
+  --text-link: #525252;
+
+  --gold: #fcba67;
+  --gold-dark: #c58a3c;
+  --gold-text: #472a00;
+  --green: #325037;
+  --green-text: #adcfaf;
+  --line: rgba(81, 69, 56, 0.3);
+
+  --font-serif: 'Noto Serif', 'Liberation Serif', serif;
+  --font-sans: 'Manrope', 'Nimbus Sans', sans-serif;
+
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+
+  --w-desktop: 1280px;
+  --w-content: 1088px;
+}
