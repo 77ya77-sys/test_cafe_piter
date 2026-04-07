@@ -85,12 +85,13 @@
     border-radius: var(--radius-12);
     overflow: hidden;
     margin-inline: auto;
-    background-position: center;
+    background-position: center center !important;
   }
 
   .hero__inner {
     padding-inline: 24px;
     padding-top: 136px;
+    text-align: left !important;
   }
 
   .hero__title {
@@ -98,7 +99,8 @@
     line-height: 1;
     max-width: 100%;
     margin: 0;
-    text-align: left;
+    text-align: left !important;
+    margin-left: 0 !important;
   }
 
   .about__title,
