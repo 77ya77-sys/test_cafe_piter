@@ -89,7 +89,7 @@
   }
 
   .hero__inner {
-    padding-inline: 24px;
+    padding-inline: 0;
     padding-top: 136px;
     text-align: left !important;
   }
