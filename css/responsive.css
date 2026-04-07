@@ -98,6 +98,7 @@
     line-height: 1;
     max-width: 100%;
     margin: 0;
+    text-align: left;
   }
 
   .about__title,
@@ -118,6 +119,10 @@
   .mobile-actions {
     display: block;
     padding-top: 48px;
+  }
+
+  .mobile-actions .container {
+    padding-inline: 24px;
   }
 
   .mobile-actions__row {
@@ -267,6 +272,7 @@
 
   .location__map-iframe {
     display: block;
+    pointer-events: none;
   }
 
   .location__content {
