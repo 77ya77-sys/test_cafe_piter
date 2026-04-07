@@ -79,8 +79,8 @@
   .hero {
     margin-top: 64px;
     min-height: auto;
-    width: min(342px, 100%);
-    max-width: calc(100vw - 48px);
+    width: calc(100% - 48px);
+    max-width: none;
     height: 397px;
     border-radius: var(--radius-12);
     overflow: hidden;
