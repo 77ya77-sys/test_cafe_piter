@@ -10,11 +10,13 @@
     width: 100%;
     max-width: 100%;
     padding-inline: 24px;
+    box-sizing: border-box;
   }
 
   .container {
     width: 100%;
     max-width: 100%;
+    box-sizing: border-box;
   }
 
   .header__top {
@@ -78,6 +80,7 @@
     margin-top: 64px;
     min-height: auto;
     width: min(342px, 100%);
+    max-width: calc(100vw - 48px);
     height: 397px;
     border-radius: var(--radius-12);
     overflow: hidden;
@@ -87,14 +90,23 @@
 
   .hero__inner {
     padding-inline: 24px;
-    padding-top: 214px;
+    padding-top: 202px;
   }
 
   .hero__title {
-    font-size: 39px;
+    font-size: 40px;
     line-height: 1;
     max-width: 100%;
     margin: 0;
+  }
+
+  .about__title,
+  .menu-mobile__title,
+  .why-us__title,
+  .location__content h2,
+  .cta__inner h2 {
+    line-height: 1;
+    margin: 0 0 28px;
   }
 
   .hero__lead,
@@ -262,7 +274,7 @@
   }
 
   .location__content h2 {
-    font-size: 37px;
+    font-size: 36px;
   }
 
   .location__line {
