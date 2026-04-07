@@ -112,7 +112,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #f1f1f1;
+  border: 1px solid rgba(255, 255, 255, .18);
   box-shadow: 0 14px 32px rgba(0, 0, 0, .35);
   transition: transform .2s ease, filter .2s ease;
 }
@@ -123,11 +124,11 @@
 }
 
 .messenger-fab__link--wa {
-  background: #25D366;
+  background: rgba(22, 22, 22, .92);
 }
 
 .messenger-fab__link--tg {
-  background: #229ED9;
+  background: rgba(22, 22, 22, .92);
 }
 
 .header__subnav {
