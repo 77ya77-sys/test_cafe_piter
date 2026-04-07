@@ -35,12 +35,12 @@
   }
 
   .messenger-fab__link {
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
   }
 
   .header__subnav {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     gap: 32px;
@@ -61,7 +61,7 @@
   }
 
   .hero {
-    margin-top: 101px;
+    margin-top: 64px;
     min-height: auto;
     width: 342px;
     height: 397px;
@@ -73,12 +73,13 @@
 
   .hero__inner {
     padding-inline: 24px;
-    padding-top: 255px;
+    padding-top: 228px;
   }
 
   .hero__title {
-    font-size: 36px;
-    max-width: 220px;
+    font-size: 32px;
+    line-height: 1.03;
+    max-width: 294px;
   }
 
   .hero__lead,
@@ -191,7 +192,7 @@
   }
 
   .why-us__title {
-    font-size: 46px;
+    font-size: 45px;
     margin-bottom: 32px;
     text-align: center;
   }
